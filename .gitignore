@@ -1,0 +1,40 @@
+# Build output
+target/
+dist/
+build/
+out/
+node_modules/
+*.class
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Uploaded profile photos and media
+uploads/
+backend/uploads/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# OS / logs / temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak

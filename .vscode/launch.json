@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SkillSwap backend",
+      "request": "launch",
+      "mainClass": "com.skillswap.SkillSwapApplication",
+      "projectName": "skillswap",
+      "cwd": "${workspaceFolder}/backend",
+      "vmArgs": "-Djdk.net.unixdomain.tmpdir=${workspaceFolder}/backend/target"
+    },
+    {
+      "type": "chrome",
+      "name": "SkillSwap frontend (Chrome)",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/frontend/src"
+    }
+  ]
+}
